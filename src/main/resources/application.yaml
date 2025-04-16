@@ -9,7 +9,7 @@ spring:
     gcp:
       project-id: mostafa-edu-ai
       credentials:
-        location: /home/mostafa/projects/Check-AI/car-insurance/src/main/resources/cer/mostafa-edu-ai-4267d9f0528f.json
+        location: classpath:/cer/mostafa-edu-ai-4267d9f0528f.json
 
 # Google Cloud Storage Configuration
 gcp:

@@ -1,6 +1,7 @@
 package de.checkai.insurance.car.config;
 
 import com.google.api.gax.core.CredentialsProvider;
+import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.aiplatform.v1.IndexEndpointServiceClient;
 import com.google.cloud.aiplatform.v1.IndexServiceClient;
 import com.google.cloud.documentai.v1.DocumentProcessorServiceClient;
@@ -13,6 +14,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 
 /**
