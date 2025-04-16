@@ -13,9 +13,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 
 /**
@@ -34,6 +34,18 @@ public class GoogleCloudConfiguration {
     @Value("${gcp.vertex.region}")
     private String region;
 
+
+    @Bean
+    public CredentialsProvider googleCredentialsProvider() throws IOException {
+        return () -> {
+            try {
+                Resource resource = new ClassPathResource("cer/mostafa-edu-ai-4267d9f0528f.json");
+                return GoogleCredentials.fromStream(resource.getInputStream());
+            } catch (IOException e) {
+                throw new RuntimeException("Failed to load Google credentials", e);
+            }
+        };
+    }
     @Bean
     public Storage storage() throws IOException {
         return StorageOptions.newBuilder()

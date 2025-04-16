@@ -14,6 +14,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
  */
 @SpringBootApplication
 @EnableAsync
+@ConfigurationPropertiesScan
 @OpenAPIDefinition(
 		info = @Info(
 				title = "Data Preparation Service API",
