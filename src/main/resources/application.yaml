@@ -1,0 +1,44 @@
+# Server Configuration
+server:
+  port: 8081
+
+spring:
+  application:
+    name: data-preparation-service
+  cloud:
+    gcp:
+      project-id: mostafa-edu-ai
+      credentials:
+        location: classpath:cer/mostafa-edu-ai-4267d9f0528f.json
+
+# Google Cloud Storage Configuration
+gcp:
+  storage:
+    bucket-name: ${GCP_BUCKET_NAME:insurance-car-embeddings:insurance-car-embeddings-mostafa-edu-ai}
+
+  # Vertex AI Configuration
+  vertex:
+    region: ${GCP_REGION:europe-west3 (Frankfurt)}
+    embedding-model: textembedding-gecko@001
+    embedding-dimension: 768
+    vector-search-index-name: insurance-car-index
+    vector-search-endpoint-name: insurance-car-endpoint
+
+# PDF Processing
+pdf:
+  chunk-size: 300
+  chunk-overlap: 50
+
+# Swagger/OpenAPI
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+
+# Logging
+logging:
+  level:
+    com.insurance: DEBUG
+    org.springframework.web: INFO

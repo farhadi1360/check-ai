@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mostafa-edu-ai",
+  "private_key_id": "4267d9f0528f9373b747d81baa48f44255e72f68",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCruGO3zRv1ZrgJ\ncBcDSe6oEGtY/ocipLMTrLoZ4t/4cy1w+TCaqQZXiyTSO+xxBrKLhxT29jEfHDBQ\npNTSyYuQg99ecfumhGDX+i3+vjOrsypkwEQ7o2OwhD7Sdho7t+05K9iuPgpYA+ss\nbdD63QSanc6pV/AjFiMbemmKOgW/NNMtNSDBlHICSFVtWz0g1hJUE1AFAPKoNxOu\ndRdbNxVuAS59YMXSrqzkYT2JnFNeEj3StxPR0+Tjvw5Xd65yClq/wN6z69RvDtSN\n89GzS8XvT4RSgcaOQv158CmuBMOwk2izVDE641mjnayUbWPq4jUUBaTb4SNz7Iso\nTgvL/i/DAgMBAAECggEACXDKsqkpF1W9Wm96JGklIMI+VJcxsLrjSXqehJvPemZC\nokpg3K/cNGXm8VPwDMq0eC1F/snMK4yuL1DQjoIcFSba2eNkVWRDurv7WVz1lEP2\nWbGkTq8N5P9wQLvTd2MGPLVnZTTt9qbIgBnNem06OpHgcbju787gwTr6oGnONRPI\nQ506+12Rz4BpuRY6CLCSrW981YMok0nri3fXyPF+tyFOlSW4Sd1MDQB6FbeBA76q\nX2tmRy2ItQ0pt+g63DJARYiGkQZBZdIDpS8klmIuqIh+WTtxqeRhRNWOYYAe7nfO\ne+fonU4e/5n0FgydfOlKAG60Q9nSa483Mw88xz4cAQKBgQDjJtkFEITOwRoTbVgw\nDajE3yALsIaB8UeuU0XkCJStAQ8ygpcjqFY8nrmN4q+mEWWZItFjTIjsD3K3oiqw\nBqqUDw6rrR4MmU1up5SrwdPotz1MqizaBjwAqydlD8KMf015DvKlyfTWctazR/aC\n0Pz2qpzL9QuvpOVNbbjlt6k6AQKBgQDBh1rboay4kKwA87k4NZgRRnh4Vwlj9uru\ndXIvN4syvKn1RLstz9rTJ7Rl9RxfMh+rATJgQxX5thxAv4kw+mTJnmENC7gUbG1h\nsZhceUPHteSuec623QCU1/ZeOndU69/EUiVl1ujy52JQw20tli5cxUzyA77o4Akb\nCTS+Kt0BwwKBgQCUm8nHonMAwRzKMPNNHOKZSlCw1SBqyuvWhOxor6R1OwgyR3WS\nAoPIzR8gUHoR77fEZB8RE/VQWxr2QMYku3fFvcQfVPcfzvv1tPVzGTAGRDt6eKs3\nSHThCxiO6ayiNnb9CGZ/SI1B74e/awk/tHKK/jvuw7aNhxftfCdHQs0YAQKBgD19\nW0IDiZSO6wfWaJhSdwGuKWLbDLHFZ3niuSgFduXlCf9TGkIBE98Zc3kduykIDQXR\neIcbaaUQ1sM/2EBGnrVs7BswCQn8NXjf67AeG4od4g4Jx8NUTvX79FyWKQpDc7K2\nAwnrkdJz8EoG/e6JFCwHyF3xELx/SoVblHWDuvrvAoGAatljsKrevHR+uY92eQJw\naaqC3hxK30hpU1Ey9BWJG5+DRMMWrXs7pBmnxFjYpSAgf4oDUPtmYwhj9QrcAaTv\nHSfd7k54fw7WTjaTao6rijKsa93wuBbRpRZksMdqrEijdrEwuXEe7QHjh3lnnquD\njFlzcia+6khvqdNHoH3UMDg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "rag-insurance-sa@mostafa-edu-ai.iam.gserviceaccount.com",
+  "client_id": "113150957678925502264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/rag-insurance-sa%40mostafa-edu-ai.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
